@@ -13,7 +13,7 @@ import java.wisesaying.domain.WiseSaying
 import kotlin.collections.LinkedHashMap
 import kotlin.io.path.Path
 
-class WiseSayingRepositoryImpl : WiseSayingRepository {
+class WiseSayingRepositoryImpl: WiseSayingRepository {
     private val idGeneration: IdGeneration
     private val wiseSayingEntityLinkedHashMap: LinkedHashMap<Long, WiseSayingEntity>
 

@@ -1,9 +1,8 @@
-/*
 package java.wisesaying.service.response;
 
 import java.util.LinkedList;
 
-import wisesaying.domain.WiseSaying;
+import java.wisesaying.domain.WiseSaying;
 
 public class WiseSayingPageResponse {
 	Long pageNum;
@@ -32,4 +31,3 @@ public class WiseSayingPageResponse {
 		return wiseSayingLinkedList;
 	}
 }
-*/
